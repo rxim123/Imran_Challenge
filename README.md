@@ -29,5 +29,9 @@ SSL Certs are provisioned through ACM (Amazon Certificate Manager) and assigned 
 A separate S3 bucket will also be provisioned to serve as the collector for logs.  CloudFront as well as the Root S3 Bucket have been configured to add logs to the Logging Bucket, each with its own headers so the origin of the log can be distinguished.  Log analytics tools can be deployed to read from this bucket (not added as part of this example)
 
 
+## Python Challenge
+
+In this repo is also the solution to the Complex Number challenge as presented.  It is writen in Python3.
+
 
 #
